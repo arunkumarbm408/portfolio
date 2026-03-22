@@ -26,6 +26,12 @@ import {
   docker,
   meta,
   starbucks,
+  varcons_logo,
+  globussoft_logo,
+  power_ads_spy,
+  adsgpt_img,
+  crane_book,
+  jewellery_app,
   tesla,
   shopify,
   carrent,
@@ -51,20 +57,36 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full-Stack MERN (MongoDB, Express, React, Node)",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend (React, Redux, TypeScript, Tailwind, Bootstrap, HTML, CSS)",
+    icon: reactjs,
+  },
+  {
+    title: "Backend (Node.js, Express, REST APIs, JWT, MVC, Middleware, Async)",
+    icon: nodejs,
+  },
+  {
+    title: "Mobile Apps (React Native)",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Databases (MongoDB, MySQL, PostgreSQL, Redis, Elasticsearch)",
+    icon: mongodb,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "DevOps (Docker, AWS, CI/CD, Jenkins, PM2, Linux)",
+    icon: docker,
+  },
+  {
+    title: "Tools & Testing (Git, GitHub, Postman, Swagger, API Security)",
+    icon: git,
+  },
+  {
+    title: "Performance & Integrations (Optimization, Third-Party APIs)",
+    icon: javascript,
   },
 ];
 
@@ -106,16 +128,8 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -125,56 +139,34 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    companyName: "Varcons Technology",
+    icon: varcons_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "March 2023 - Sep 2023",
+ points: [
+  "Assisted in building web pages using HTML5 and CSS3 with clean structure and basic styling.",
+  "Implemented simple interactivity using JavaScript to enhance user experience.",
+  "Worked on responsive design to ensure compatibility across different devices and screen sizes.",
+  "Wrote basic SQL queries for data retrieval and updates under guidance from senior developers.",
+  "Collaborated with team members and learned best practices in web development and coding standards.",
+]
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    companyName: "Globussoft Technology",
+    icon: globussoft_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Oct 2023 - Dec 2025",
+  points: [
+  "Designed, developed, and maintained scalable RESTful APIs using Node.js and Express.js following MVC architecture for production-grade applications.",
+  "Implemented secure authentication and authorization using JWT, along with middleware for protected API routes.",
+  "Worked extensively with MongoDB and SQL databases, optimizing queries and indexing to enhance performance.",
+  "Integrated Redis caching to reduce database load and significantly improve API response times under high concurrency.",
+  "Built and maintained scalable backend systems using Node.js, Express.js, MongoDB, Redis, Docker, and AWS in production environments.",
+  "Collaborated closely with frontend teams (React.js) to ensure seamless client-server communication and efficient data flow.",
+  "Participated in code reviews, debugging, performance tuning, and deployment using Docker and AWS (EC2, S3).",
+]
   },
 ];
 
@@ -207,66 +199,57 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "PowerAdSpy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A production-grade ad intelligence platform where I built scalable REST APIs for real-time ad data retrieval and processing. Implemented secure JWT authentication, optimized MongoDB queries for high-traffic performance, and followed MVC architecture for maintainability.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "restapi", color: "blue-text-gradient" },
+      { name: "jwt", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: power_ads_spy, // replace with your project image if available
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AdsGPT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "AI-powered ad creative generator that produces text, images, and videos through a real-time chat interface. Built scalable backend services using Node.js and Express.js, integrated AI APIs, and implemented Redis caching to improve performance under high concurrency.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "redis", color: "pink-text-gradient" },
+      { name: "ai", color: "blue-text-gradient" },
+      { name: "restapi", color: "green-text-gradient" },
     ],
-    image: jobit,
+    image: adsgpt_img, // replace with your project image
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Crane Booking App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a full-stack booking platform similar to Rapido, allowing users to request crane services, track bookings, and manage orders. Built REST APIs, handled real-time data flow, and designed scalable backend architecture.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "mern", color: "green-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
     ],
-    image: tripguide,
+    image: crane_book,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Jewellery Shop App",
+    description:
+      "Created a mobile-responsive jewellery platform where users can browse designs by category and directly connect via WhatsApp for inquiries. Focused on UI/UX, performance, and seamless user interaction.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "responsive", color: "green-text-gradient" },
+      { name: "whatsapp", color: "green-text-gradient" },
+    ],
+    image: jewellery_app,
     sourceCodeLink: "https://github.com/",
   },
 ];

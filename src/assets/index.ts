@@ -24,6 +24,12 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import varcons_logo from "./company/varcons_logo.png";
+import globussoft_logo from "./company/globussoft_logo.png"
+import power_ads_spy from "./power_ads_spy.png";
+import adsgpt_img from "./adsgpt_img.png";
+import crane_book from "./crane_book.png";
+import jewellery_app from "./jewellery_app.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -55,6 +61,12 @@ export {
   meta,
   shopify,
   starbucks,
+  globussoft_logo,
+  varcons_logo,
+  power_ads_spy,
+  adsgpt_img,
+  crane_book,
+  jewellery_app,
   tesla,
   carrent,
   jobit,

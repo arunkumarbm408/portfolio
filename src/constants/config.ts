@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Arun Kumar",
-    p: ["Specialized in Node.js & RESTful API Development"],
+    p: ["Full-Stack MERN Developer | Scalable Applications"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `MERN Stack Developer with 2+ years of experience building scalable, high-performance web applications. Skilled in developing robust REST APIs using Node.js and Express.js, with strong expertise in React.js and MongoDB. Experienced in JWT authentication, Redis caching, MVC architecture, and optimizing applications for high-traffic production environments. Proven ability to handle high-concurrency systems efficiently.`,
     },
     experience: {
       p: "What I have done so far",
@@ -83,12 +79,8 @@ export const config: TConfig = {
     },
     works: {
       p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      h2: "Projects",
+      content: `The following projects highlight my skills and experience through real-world applications. Each project includes a brief description along with links to the code repository and live demo, showcasing my ability to solve complex problems, work with modern technologies, and deliver effective solutions.`,
     },
   },
 };
