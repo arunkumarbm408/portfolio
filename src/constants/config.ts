@@ -9,6 +9,7 @@ type TConfig = {
     title: string;
     fullName: string;
     email: string;
+    phone: string;
   };
   hero: {
     name: string;
@@ -43,6 +44,7 @@ export const config: TConfig = {
     title: "Arun Kumar",
     fullName: "Arun Kumar",
     email: "arunkumarb408@mail.com",
+    phone: "+91-6360859627",
   },
   hero: {
     name: "Arun Kumar",

@@ -5,6 +5,7 @@ import type {
   TExperience,
   TTestimonial,
   TProject,
+  TCertificate,
 } from "../types";
 
 import {
@@ -37,6 +38,10 @@ export const navLinks: TNavLink[] = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "contact",
@@ -243,4 +248,36 @@ const projects: TProject[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates: TCertificate[] = [
+  {
+    title: "Selected for Pre-RDC-1 Camp",
+    issuer: "National Cadet Corps (NCC), India",
+    date: "2023",
+    description:"Selected for Pre-Republic Day Camp (Pre-RDC-1), a national-level NCC camp, demonstrating strong discipline, fitness, and leadership.",
+    category: "army",
+  },
+  {
+    title: "District Level Chess Champion",
+    issuer: "District Sports Authority",
+    date: "2015",
+    description:
+      "Won the District Level Chess Championship, demonstrating strong strategic thinking, problem-solving ability, and mental discipline in competitive play.",
+    category: "participation",
+  },
+  {
+    title: "Academic Excellence — 1st Rank & Distinction",
+    issuer: "KSEEB & VTU",
+    date: "2017, 2019 & 2023",
+    description:"Secured 1st Rank in SSLC (2017) and PUC (Science - PCMB, 2019), and graduated with Distinction in BE (ECE) from VTU in 2023.",
+   category: "academic",
+  },
+  {
+    title: "Multi-Cloud DevOps Workshop",
+    issuer: "Workshop / Training Program",
+    date: "2025",
+    description:"Attended a Multi-Cloud DevOps workshop and gained hands-on experience with key AWS tools and cloud concepts.",
+    category: "technical",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates };

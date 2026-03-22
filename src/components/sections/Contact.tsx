@@ -75,6 +75,17 @@ const Contact = () => {
       >
         <Header useMotion={false} {...config.contact} />
 
+        <div className="mt-6 flex flex-col gap-3 text-white">
+          <p className="flex items-center gap-3 text-sm">
+            <span className="text-[#915EFF]">&#9993;</span>
+            {config.html.email}
+          </p>
+          <p className="flex items-center gap-3 text-sm">
+            <span className="text-[#915EFF]">&#9742;</span>
+            {config.html.phone}
+          </p>
+        </div>
+
         <form
           // @ts-expect-error
           ref={formRef}

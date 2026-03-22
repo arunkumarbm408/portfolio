@@ -36,6 +36,15 @@ export type TNavLink = {
 
 export type TService = Required<Omit<TCommonProps, "name">>;
 
+export type TCertificate = {
+  title: string;
+  issuer: string;
+  date: string;
+  description: string;
+  category: "army" | "technical" | "academic" | "participation";
+  icon?: string;
+};
+
 export type TMotion = {
   direction: "up" | "down" | "left" | "right" | "";
   type: "tween" | "spring" | "just" | "";
