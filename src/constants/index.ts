@@ -9,8 +9,6 @@ import type {
 
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -22,22 +20,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
   varcons_logo,
   globussoft_logo,
   power_ads_spy,
   adsgpt_img,
   crane_book,
   jewellery_app,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
